@@ -1,0 +1,28 @@
+<section class="ct-quality">
+            <div class="container">
+                <div class="ct-section-head ct-fade">
+                    <span class="ct-kicker">Inspection</span>
+<h4>Quality Assurance Plan</h4>
+<p>Quality Assurance Plan (QAP) available according to project requirements.</p>                    <p class="ct-subtitle">Every dispatch can be aligned to project-level inspection and compliance requirements.</p>
+                </div>
+
+                <div class="ct-quality-grid">
+                    <article class="ct-qbox ct-fade">
+                        <h4>Mill Test Certificates</h4>
+                        <p>EN 10204 3.1 documentation available for traceable batch-level compliance.</p>
+                    </article>
+                    <article class="ct-qbox ct-fade">
+                        <h4>Chemical And Mechanical Tests</h4>
+                        <p>Grade conformance support including tensile, yield, and chemistry verification.</p>
+                    </article>
+                    <article class="ct-qbox ct-fade">
+                        <h4>NDT Support</h4>
+                        <p>UT, RT, MPI, and DPI options through approved inspection channels when specified.</p>
+                    </article>
+                    <article class="ct-qbox ct-fade">
+                        <h4>Third-Party Inspection</h4>
+                        <p>Inspection coordination from agencies such as TUV, SGS, BV, and Lloyds on request.</p>
+                    </article>
+                </div>
+            </div>
+        </section>

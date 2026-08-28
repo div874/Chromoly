@@ -1,0 +1,17 @@
+<section class="seo-link-block" aria-label="Related internal links">
+        <div class="container">
+            <h2>Related Buying and Supplier Links</h2>
+            <p>Explore supplier pages, pricing intent pages, technical references, and region-focused availability.</p>
+            <div class="seo-link-grid">
+                    <a href="4130-chromoly-tubing-suppliers.html">4130 Chromoly Tubing Suppliers | Siddhgiri Overseas</a>
+                    <a href="4130-steel-suppliers.html">4130 Steel Suppliers | Siddhgiri Overseas</a>
+                    <a href="4130-tubing-suppliers.html">4130 Tubing Suppliers | Siddhgiri Overseas</a>
+                    <a href="chromoly-tubing-manufacturers.html">Chromoly Tubing Manufacturers | Siddhgiri Overseas</a>
+                    <a href="chromoly-steel-tube-suppliers.html">Chromoly Steel Tube Suppliers | Siddhgiri Overseas</a>
+                    <a href="where-to-buy-4130-chromoly-tubing.html">Where To Buy 4130 Chromoly Tubing | Siddhgiri Overseas</a>
+                    <a href="contact-us.html">Contact Us | Siddhgiri Overseas</a>
+                    <a href="4130-chromoly-properties.html">4130 Chromoly Properties | Siddhgiri Overseas</a>
+                    <a href="aisi-4130-equivalent-material.html">AISI 4130 Equivalent Material | Siddhgiri Overseas</a>
+            </div>
+        </div>
+    </section>

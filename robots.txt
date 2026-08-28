@@ -1,0 +1,6 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://www.chromolytubing.com/sitemap.xml
+
+
