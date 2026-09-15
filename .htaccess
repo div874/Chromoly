@@ -1,9 +1,29 @@
 RewriteEngine On
 
-# Redirect any non-existent path to the home page.
+# 1. External 301 Redirect: Prevent duplicate indexing of /seo/html/ paths.
+RewriteCond %{THE_REQUEST} \s/seo/html/([a-zA-Z0-9_-]+\.html)\s [NC]
+RewriteRule ^seo/html/(.*)$ /$1 [R=301,L]
+
+# 2. Internal Rewrite: Serve SEO files from root URLs transparently.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/seo/html/$1 -f
+RewriteRule ^([a-zA-Z0-9_-]+\.html)$ /seo/html/$1 [L]
+
+# Redirect any non-existent path to the home page (fallback).
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ / [R=302,L]
 
 # Fallback for direct 404 responses.
 ErrorDocument 404 /
+# SEO URL Reconciliations
+Redirect 301 /4130-chrome-moly-tubing-suppliers.html https://chromolytubing.com/4130-chrome-moly-tubing.html
+Redirect 301 /4130-cold-drawn-seamless-tubing.html https://chromolytubing.com/4130-cold-drawn-tubing.html
+Redirect 301 /4130-chromoly-tubing-for-roll-cage.html https://chromolytubing.com/4130-roll-cage-tubing.html
+Redirect 301 /where-to-buy-4130-chromoly-tubing.html https://chromolytubing.com/buy-4130-chromoly-tubing.html
+Redirect 301 /chromoly-tubing-suppliers-in-mumbai.html https://chromolytubing.com/4130-chromoly-tubing-supplier-in-mumbai.html
+Redirect 301 /chromoly-tubing-manufacturers-in-india.html https://chromolytubing.com/4130-chromoly-tubing-supplier-in-india.html
+Redirect 301 /4130-chromoly-tubing-uk.html https://chromolytubing.com/4130-chromoly-tubing-supplier-in-uk.html
+Redirect 301 /4130-chromoly-tubing-australia.html https://chromolytubing.com/4130-chromoly-tubing-supplier-in-australia.html
+Redirect 301 /chromoly-tubing-suppliers-in-europe.html https://chromolytubing.com/4130-chromoly-tubing-supplier-in-europe.html

@@ -1,6 +1,6 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://www.chromolytubing.com/sitemap.xml
+Sitemap: https://chromolytubing.com/sitemap.xml
 
 
